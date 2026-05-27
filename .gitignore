@@ -1,0 +1,45 @@
+# Build outputs
+bin/
+obj/
+publish/
+publish-*/
+out/
+
+# IDE & editor cruft
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ReSharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+# Test / coverage / logs
+[Tt]est[Rr]esult*/
+*.coverage
+*.coveragexml
+TestResult.xml
+*.log
+
+# OS junk
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+$RECYCLE.BIN/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+
+# Misc artifacts
+*.pdb
+*.dll
+*.exe
+!assets/**
